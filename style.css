@@ -1,0 +1,87 @@
+body{
+    background-image: url(https://elle.ua/upload/image/38016-3093-38016.jpeg);
+  }
+  .nazva{
+    text-align: center;
+    color: white;
+  }
+  .menu {
+      background-color: #333;
+      padding: 10px 0;
+  }
+  
+  .menu-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+  }
+  
+  .menu-list li {
+      display: inline-block;
+      position: relative;
+  }
+  
+  .menu-list li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      transition: background-color 0.3s ease;
+  }
+  
+  .menu-list li a:hover {
+      background-color: #555;
+  }
+  
+  .submenu-list {
+      display: none;
+      position: absolute;
+      background-color: #333;
+      padding: 10px 0px ;
+      top: 100%;
+      left: 0;
+      z-index: 1;
+  }
+  
+  .submenu-list li {
+      display: block;
+  }
+  
+  .submenu-list li a {
+      padding: 8px 20px;
+  }
+  
+  .submenu:hover .submenu-list {
+      display: block;
+  }
+  
+  .images{
+      height:200px ;
+      width:220px;
+      padding: 5px;
+  }
+  .block_images{
+      display: flex;
+  }
+  .inform_oblast{
+      background-color: white;
+      width: 300px;
+      padding: 10px;
+      border-top: 3px solid black;
+      border-bottom: 3px solid black;
+  }
+  .inform_details{
+      border-top:3px solid black;
+      padding: 10px;
+  }
+  .img_post{
+      height: 150px;
+      width: 270px;
+  }
+.footer_text{
+    display: flex;
+    background-color: blue;
+    font-family:cursive ;
+    justify-content: center;
+    border-radius: 100%;
+}
