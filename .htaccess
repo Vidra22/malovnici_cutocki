@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^$ https://malovnichi_cutocki_ukraini.app [R=301,L]
