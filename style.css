@@ -10,6 +10,7 @@ body{
   .menu {
       background-color: #333;
       padding: 10px 0;
+      border-radius: 30px;
   }
   
   .menu-list {
@@ -93,20 +94,16 @@ body{
       width: 270px;
   }
 .footer_text{
-    display: flex;
-    background-color: blue;
     font-family:cursive ;
-    justify-content: center;
-    border-radius: 100%;
+    text-align: center;
 }
 .ssylka_na_video{
     background-color:steelblue;
-    border-radius:100%;
-    padding:3%;
+    padding:2%;
     text-align: center;
     position: fixed;
     bottom: 0;
-    right: 0;
+    left: 50;
 }
 .ssylka{
     text-decoration: none;
@@ -116,8 +113,39 @@ body{
 main{
     display: flex;
     padding: 10px;
+    user-select: none;
 }
 html{
     width: 100%;
     height: 100%;
+}
+footer{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+.footer_img{
+    height: 100px;
+    width: 100px;
+}
+.footer{
+    font-size: 25px;
+    font-family: cursive;
+    opacity: 0.5;
+    text-align: right;
+}
+.footer_a{
+    text-decoration:none ;
+    color: blue; 
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+.footer_a:hover {
+    text-decoration: underline; 
+    color: darkblue; 
+}
+
+.footer_a:visited {
+    color: purple; 
 }
