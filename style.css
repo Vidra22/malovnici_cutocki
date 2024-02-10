@@ -108,7 +108,7 @@ body{
 .ssylka{
     text-decoration: none;
     font-size: 20px;
-    color: black;
+    color: #fff;
 }
 main{
     display: flex;
@@ -121,31 +121,50 @@ html{
 }
 footer{
     background-color: gray;
-    padding: 10px;
     border-radius: 5px;
+    padding: 10px;
 }
 .footer_img{
     height: 100px;
     width: 100px;
 }
 .footer{
-    font-size: 25px;
+    font-size: 15px;
     font-family: cursive;
     opacity: 0.5;
-    text-align: right;
+    text-align: left ;
+    padding: 10px;
 }
 .footer_a{
-    text-decoration:none ;
+    text-decoration:none;
     color: blue; 
-    text-decoration: none;
-    font-weight: bold; 
 }
 
-.footer_a:hover {
-    text-decoration: underline; 
-    color: darkblue; 
+.opys_1{
+    font-size: 18.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6b5b95;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.1);
 }
-
-.footer_a:visited {
-    color: purple; 
+.ho_vi_znaydete{
+    font-size: 25px;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.opys_2{
+    font-size: 18.5px;
+    color:dodgerblue ;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+}
+.opys_3{
+    font-size: 18.5px;
+    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.kinec{
+    font-size: 25px;
+    color:maroon ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
 }
