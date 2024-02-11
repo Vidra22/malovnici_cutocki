@@ -133,6 +133,15 @@ footer{
     background-color: gray;
     border-radius: 5px;
     padding: 10px;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+footer div{
+    display:flex;
+    gap:10px;
+    text-align:left;
+    
 }
 .footer_img{
     height: 100px;
@@ -143,7 +152,6 @@ footer{
     font-family: cursive;
     opacity: 0.5;
     text-align: left ;
-    padding: 10px;
 }
 .footer_a{
     text-decoration:none;
