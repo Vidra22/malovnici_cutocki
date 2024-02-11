@@ -21,7 +21,11 @@ html{
       padding: 10px 0;
       border-radius: 30px;
   }
-  
+  .desc {
+      background-color:#fff;
+      border-radius:10px;
+      padding:10px;
+  }
   .menu-list {
       list-style-type: none;
       margin: 0;
