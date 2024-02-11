@@ -82,6 +82,7 @@ html{
       flex-wrap: wrap;
       gap: 10px;
       justify-content: space-around;
+      margin-bottom:10px;
   }
   details{
     transition: all 0.3s ease;
